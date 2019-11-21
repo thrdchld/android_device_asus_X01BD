@@ -657,6 +657,9 @@
     <string name="config_SmartChargingSupspendValue" translatable="false">0</string>
     <string name="config_SmartChargingResumeValue" translatable="false">1</string>
 
+    <!-- If true, the camera will be used more often. -->
+    <bool name="config_adaptive_sleep_available">false</bool>
+
     <!-- Flashlight on power button -->
     <integer name="config_flashlightProximityTimeout">-1</integer>
 
