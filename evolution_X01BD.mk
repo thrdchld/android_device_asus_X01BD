@@ -9,21 +9,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common ArrowOS stuff
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common Evolution-x stuff
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Inherit lawnchair conditionally
 ifeq ($(LAWNCHAIR), true)
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 endif
 
-DEVICE_MAINTAINER := SonalSingh
+EVO_BUILD_TYPE := CUSTOM
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := arrow_X01BD
+PRODUCT_NAME := evolution_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := Asus Zenfone Max Pro M2
