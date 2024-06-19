@@ -18,6 +18,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/rr_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    rr_X01BD-eng \
-    rr_X01BD-user \
-    rr_X01BD-userdebug
+    nad_X01BD-eng \
+    nad_X01BD-user \
+    nad_X01BD-userdebug
