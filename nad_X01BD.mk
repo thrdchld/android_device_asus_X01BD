@@ -19,14 +19,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common RR stuff
-$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+# Inherit some common nad stuff
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Official RR
-RR_BUILDTYPE := Official
+TARGET_GAPPS_ARCH := arm64
+USE_PIXEL_CHARGER := true
 
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
@@ -38,10 +38,10 @@ TARGET_INCLUDE_WIFI_EXT := true
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := rr_X01BD
+PRODUCT_NAME := nad_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
-PRODUCT_MODEL := ASUS_X01BDA
+PRODUCT_MODEL := Zenfone Max Pro M2
 PRODUCT_MANUFACTURER := asus
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
