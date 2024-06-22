@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_X01BD.mk
+    $(LOCAL_DIR)/qassa_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    rr_X01BD-eng \
-    rr_X01BD-user \
-    rr_X01BD-userdebug
+    qassa_X01BD-eng \
+    qassa_X01BD-user \
+    qassa_X01BD-userdebug
