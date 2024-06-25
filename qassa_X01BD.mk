@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common qassa stuff
 $(call inherit-product, vendor/qassa/config/common_full_phone.mk)
 
-# QASSA OFFICIAL stuff
+# QASSA UNOFFICIAL stuff
 QASSA_MAINTAINER := thrdchld
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_GAPPS_ARCH := arm64
@@ -30,6 +30,9 @@ USE_PIXEL_CHARGER := true
 TARGET_APERTURE_OPTOUT := true
 QTI_OPTOUT := true
 TARGET_MIXPLORER_OPTOUT := true
+
+# GAPPS
+WITH_GAPPS := true
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
