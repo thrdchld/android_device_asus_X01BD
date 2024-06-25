@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2020 Havoc-OS
+# Copyright (C) 2024 Qassa
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -47,7 +47,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_NAME := qassa_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
-PRODUCT_MODEL := ASUS_X01BDA
+PRODUCT_MODEL := Zenfone Max Pro M2
 PRODUCT_MANUFACTURER := asus
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
@@ -55,7 +55,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-asus
 TARGET_VENDOR := asus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE=ASUS_X01BD_1 \
+    PRODUCT_DEVICE=ASUS_X01BD \
     PRODUCT_NAME=WW_X01BD \
     PRIVATE_BUILD_DESC="walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys"
 
