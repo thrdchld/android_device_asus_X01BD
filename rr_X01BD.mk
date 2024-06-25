@@ -25,9 +25,6 @@ $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Official RR
-RR_BUILDTYPE := Official
-
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
