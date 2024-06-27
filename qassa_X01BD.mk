@@ -32,7 +32,7 @@ QTI_OPTOUT := true
 TARGET_MIXPLORER_OPTOUT := true
 
 # GAPPS
-#WITH_GAPPS := true
+WITH_GAPPS := true
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
