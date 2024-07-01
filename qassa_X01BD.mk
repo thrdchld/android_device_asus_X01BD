@@ -37,6 +37,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Google Connectivity Services
 TARGET_INCLUDE_WIFI_EXT := true
 
+# GAPPS
+WITH_GAPPS := true
+
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
