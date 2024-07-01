@@ -426,5 +426,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ZenParts
 
+PRODUCT_PACKAGES += \
+    7SIM
+
 # Call the proprietary setup
 $(call inherit-product, vendor/asus/X01BD/X01BD-vendor.mk)

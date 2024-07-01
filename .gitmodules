@@ -1,0 +1,4 @@
+[submodule "7SIM"]
+	path = 7SIM
+	url = https://github.com/iusmac/7SIM.git
+	branch = 14.0-dev
